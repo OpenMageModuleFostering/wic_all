@@ -1,2 +1,4 @@
 "Installed Extensions","Modules installés"
 "Select attribute to map","Séléctionner l'attribut a mapper"
+"Include jQuery","Inclure jQuery"
+"Depending on your configuration. Not necessary for Magento 1.9+.","En fonction de votre configuration. Pas nécessaire pour Magento 1.9+."

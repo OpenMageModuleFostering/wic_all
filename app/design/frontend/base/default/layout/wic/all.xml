@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">   
+    <default>
+        <reference name="head">            
+            <action method="addItem" ifconfig="wicall/jquery/enable"><type>external_js</type><name>//code.jquery.com/jquery-latest.min.js</name></action>
+            <action method="addItem" ifconfig="wicall/jquery/enable"><type>js</type><name>wic/all/jquery.noconflict.js</name></action>                        
+        </reference>        
+    </default>
+</layout>
