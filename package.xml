@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>WIC_All</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">The Open Software License 3.0 (OSL-3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This is our Core &amp; Utility Package for our modules to depends on.&#xD;
+</summary>
+    <description>This Core &amp; Utility package module is required for our other modules to depends on. It extends some functionalities and add a Tab in System &gt; Configuration &#xD;
+&#xD;
+For more information about our moduie please visite our &lt;a href="http://store.webincolor.fr"&gt;Magento module store &lt;/a&gt;&#xD;
+&#xD;
+________________________________________________&#xD;
+&#xD;
+Ce module Core &amp; Utility package est n&#xE9;cessaire pour le fonctionnement des nos autres modules. Il ajoute quelques fonctionnalit&#xE9;s &#xE0; Magento et un onglet dans Systeme &gt; Configuration.&#xD;
+&#xD;
+Pour plus d'information merci de visiter le &lt;a href="http://store.webincolor.fr"&gt;Store d'extension Magento Webincolor&lt;/a&gt;</description>
+    <notes>New release of our WIC Core module and installed through Magento Connect</notes>
+    <authors><author><name>Web In Color</name><user>webincolor</user><email>contact@webincolor.fr</email></author></authors>
+    <date>2014-12-10</date>
+    <time>11:33:49</time>
+    <contents><target name="magecommunity"><dir name="WIC"><dir name="All"><dir name="Block"><file name="Extensions.php" hash="9675492162e2c90cbe6214c1f5c82d32"/><dir name="Html"><file name="Head.php" hash="67561290bf7d2dfcf0773c7b625f94b8"/></dir></dir><dir name="Helper"><file name="Data.php" hash="db6319093e7e520198edec46abc106fd"/></dir><dir name="Model"><dir name="Catalog"><dir name="Convert"><dir name="Parser"><file name="Product.php" hash="40c168af1be0ecdb847eaee0365d15ef"/></dir></dir></dir><dir name="Source"><file name="Attributes.php" hash="fe0a7821e52d5794e1e8fa403eeab69a"/></dir></dir><dir name="etc"><file name="config.xml" hash="1976a9900632d2881048145ee9195ced"/><file name="system.xml" hash="bc711e7e8d71a9ced216223d959490e4"/></dir><dir name="sql"><dir name="wicall_setup"><file name="mysql4-install-1.0.0.php" hash="c05dcd363b70b96a7ac8486a22b877b7"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="wic"><file name="all.xml" hash="c15d5bdb46061fe92a3aa92cf11f04a7"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="wic"><dir name="all"><dir><dir name="css"><file name="tab.css" hash="ef8952d96fcb600de21199fa59338b2a"/></dir><dir name="images"><file name="ok.gif" hash="7ea13c1a3d1b4c1d7a7dccf6b83b0391"/><file name="wic.png" hash="05ab11c89a103417af6ffef8a8ea5dc5"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="WIC_All.xml" hash="b8f57cc72e3c717744d8792bd260a84e"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="WIC_All.csv" hash="610e0de2f2fe3ada84b7b30297368208"/></dir><dir name="fr_FR"><file name="WIC_All.csv" hash="482635cd580ce4c08a3609704c4b371c"/></dir></dir></target><target name="mageweb"><dir name="."><file name="WIC-LICENSE.TXT" hash="460ced36627150fe9f9ecb733309b62a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
